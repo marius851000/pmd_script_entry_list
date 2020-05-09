@@ -1,0 +1,15 @@
+[package]
+name = "pmd_script_entry_list"
+version = "1.0.0"
+authors = ["marius david <mariusdavid@laposte.net>"]
+edition = "2018"
+description = "A library that can read/write pmd_script_entry_list file, used in pokemon super mystery dungeon, to/from json"
+repository = "https://github.com/marius851000/pmd_script_entry_list"
+keywords = [ "parser" ]
+categories = [ "parser-implementations" ]
+license = "CC0-1.0"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+pmd_sir0 = "1.1.0"
+serde = { version = "1.0.104", features = ["derive"] }
